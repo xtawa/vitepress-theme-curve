@@ -25,6 +25,14 @@ const getMusicListData = async () => {
   try {
     const musicList = await getMusicList(url, id, server, type);
     console.log(musicList);
+    if (musicList[1].url == "") {
+      let midArr = JSON.parse(decodeURIComponent(musicList[0].url.split("data=")[1])).req_0.param
+        .songmid;
+      musicList.map((song, index) => {
+        song.url = `https://meting.qjqq.cn/?server=tencent&type=url&id=${midArr[index]}`;
+        return song;
+      });
+    }
     initAPlayer(musicList?.length ? musicList : []);
   } catch (error) {
     $message.error("获取播放列表失败，请重试");
