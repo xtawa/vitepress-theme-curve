@@ -3,27 +3,27 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "YanLuo洛's Blog",
     // 站点描述
-    description: "Hello World",
+    description: "分享技术学习心得",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://xtawa.top",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
-      cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      name: "YanLuo洛",
+      cover: "/images/logo/avatar.png",
+      email: "zaz203@outlook.com",
+      link: "https://xtawa.top",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "萌ICP备20255282号",
   // 建站日期
-  since: "2020-07-28",
+  since: "2024-10-07",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.imsyy.top/rss.xml",
+          href: "https://xtawa.top/rss.xml",
         },
       ],
       // 预载 CDN
@@ -121,24 +121,20 @@ export const themeConfig = {
     {
       text: "专栏",
       items: [
-        { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
         { text: "我的项目", link: "/pages/project", icon: "code" },
-        { text: "效率工具", link: "/pages/tools", icon: "tools" },
       ],
     },
     {
       text: "友链",
       items: [
-        { text: "友链鱼塘", link: "/pages/friends", icon: "fish" },
         { text: "友情链接", link: "/pages/link", icon: "people" },
       ],
     },
     {
       text: "我的",
       items: [
-        { text: "畅所欲言", link: "/pages/message", icon: "chat" },
-        { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
         { text: "关于本站", link: "/pages/about", icon: "contacts" },
+        { text: "版权信息", link: "/pages/copyright", icon: "contacts" },		
       ],
     },
   ],
@@ -152,65 +148,20 @@ export const themeConfig = {
           name: "主站",
           url: "/",
         },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
-        },
       ],
     },
     {
       name: "服务",
       list: [
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
+          icon: "https://cdn.xtawa.top/favicon.ico",
+          name: "旧博客",
+          url: "https://archive.xtawa.top/",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+          icon: "https://cdn.xtawa.top/status.ico",
           name: "站点监测",
-          url: "https://status.imsyy.top/",
-        },
-      ],
-    },
-    {
-      name: "项目",
-      list: [
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Curve",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-          name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "Snavigation",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Home",
-          url: "https://github.com/imsyy/home",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "DailyHotApi",
-          url: "https://github.com/imsyy/DailyHotApi",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "site-status",
-          url: "https://github.com/imsyy/site-status",
+          url: "https://status.xtawa.top/",
         },
       ],
     },
@@ -239,27 +190,27 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "mailto:zaz203@outlook.com",
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
+        link: "https://www.github.com/xtawa/",
       },
       {
         icon: "telegram",
-        link: "https://t.me/bottom_user",
+        link: "https://t.me/Yanluokeke",
       },
       {
         icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://space.bilibili.com/415497730",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        link: "https://qq.com/",
       },
       {
         icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
+        link: "https://twitter.com/kekeyanluo",
       },
     ],
     // sitemap
@@ -274,40 +225,28 @@ export const themeConfig = {
         ],
       },
       {
-        text: "项目",
-        items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
-        ],
-      },
-      {
         text: "专栏",
         items: [
-          { text: "技术分享", link: "/pages/categories/技术分享" },
           { text: "我的项目", link: "/pages/project" },
-          { text: "效率工具", link: "/pages/tools" },
         ],
       },
       {
         text: "页面",
         items: [
-          { text: "畅所欲言", link: "/pages/message" },
           { text: "关于本站", link: "/pages/about" },
           { text: "隐私政策", link: "/pages/privacy" },
           { text: "版权协议", link: "/pages/cc" },
+          { text: "版权信息", link: "/pages/copyright" },
         ],
       },
       {
         text: "服务",
         items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+          { text: "站点状态", link: "https://status.xtawa.top/", newTab: true },
+          { text: "站点订阅", link: "https://xtawa.top/rss.xml", newTab: true },
           {
             text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+            link: "https://waline.xtawa.top",
             newTab: true,
           },
         ],
@@ -316,10 +255,10 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
-    type: "artalk",
+    type: "twikoo",
     // artalk
     // https://artalk.js.org/
     artalk: {
@@ -331,9 +270,9 @@ export const themeConfig = {
     twikoo: {
       // 必填，若不想使用 CDN，可以使用 pnpm add twikoo 安装并引入
       js: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/twikoo/1.6.39/twikoo.all.min.js",
-      envId: "",
+      envId: "https://twikoo.xtawa.top",
       // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
-      region: "ap-shanghai",
+      region: "",
       lang: "zh-CN",
     },
   },
@@ -342,7 +281,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "这里有关于<strong>开发</strong>相关的问题和看法，希望你可以在这里找到对你有用的知识和教程。",
     },
     // 目录
     toc: {
@@ -358,7 +297,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-01-29",
+        date: "2026-02-17",
       },
     },
     // 站点数据
@@ -380,11 +319,11 @@ export const themeConfig = {
   // 音乐播放器
   // https://github.com/imsyy/Meting-API
   music: {
-    enable: false,
+    enable: true,
     // url
-    url: "https://api-meting.example.com",
+    url: "https://metingapi.xtawa.top",
     // id
-    id: 9379831714,
+    id: 12242696636,
     // netease / tencent / kugou
     server: "netease",
     // playlist / album / song
@@ -393,13 +332,13 @@ export const themeConfig = {
   // 搜索
   // https://www.algolia.com/
   search: {
-    enable: false,
-    appId: "",
-    apiKey: "",
+    enable: true,
+    appId: "XG9J7TBGD8",
+    apiKey: "5e7da999c5375ffc89f0dc6d38a81570",
   },
   // 打赏
   rewardData: {
-    enable: true,
+    enable: false,
     // 微信二维码
     wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
     // 支付宝二维码
@@ -436,6 +375,6 @@ export const themeConfig = {
   },
   // 站点统计
   tongji: {
-    "51la": "",
+    "51la": "3MtRAmtvss8kXf8K",
   },
 };
